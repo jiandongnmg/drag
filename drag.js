@@ -1,7 +1,9 @@
 
-function drag(obj){
-	var oDiv = document.getElementById("id");
-	obj.onclick = function(){
-		onOff = !onOff;
+function drag(id){
+	var obj = document.getElementById(id);
+	var disX = 0;
+	var disY = 0;
+	obj.onmousedown = function(){
+		
 	}
 }
